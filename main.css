@@ -20,8 +20,68 @@
         }
 
 table, tr, th, td, caption {
-    border: 1px solid #eee;
+    border: 3px solid #100022;
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem;
+}
+
+
+/* Style for the button link */
+.btn {
+     /* display: flex; */
+    display: inline-block;
+    text-decoration: none;
+    background-color: #185556; /* Green color */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 16px;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.btn:hover {
+    background-color: #003255;
+    transform: scale(1.05);
+}
+
+/* Active (when clicked) */
+.btn:active {
+    background-color: #3e8e41;
+}
+
+h1 {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+.hidden-text{
+    color: rgb(0, 0, 0);
+}
+
+
+.hide {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #77c0c1; 
+    color: rgb(0, 0, 0);
+    padding: 14px 30px;
+    border-radius: 2px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    justify-content: center;
+
+}
+
+.data-align{
+    /* display: flex;
+    justify-content: center;     
+    align-items: center;  */
+    text-align: center;        
+    vertical-align: middle; 
 }
