@@ -60,7 +60,7 @@ table, tr, th, td, caption {
 }
 
 h1 {
-    font-family: 'Noto Sans Bengali', sans-serif;
+    font-family: 'Atma';
     font-size: 30px;
     color: #ffffff;
 }
@@ -104,4 +104,40 @@ h1{
     border: 2px dashed rgb(224, 255, 241);
     margin-left: 8rem;
     margin-right: 9rem;
+}
+
+
+/* .atma-light {
+  font-family: "Atma", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.atma-regular {
+  font-family: "Atma", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.atma-medium {
+  font-family: "Atma", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.atma-semibold {
+  font-family: "Atma", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.atma-bold {
+  font-family: "Atma", system-ui;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+
+.tablecaption{
+    font-family: 'Atma';
 }
