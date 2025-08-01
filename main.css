@@ -1,3 +1,9 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+        
         html {
             font-size: 22px;
         }
@@ -84,4 +90,18 @@ h1 {
     align-items: center;  */
     text-align: center;        
     vertical-align: middle; 
+}
+
+.maintable {
+    border: 2px dashed blueviolet;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-right: 2rem;
+    padding: 10em;
+}
+
+h1{
+    border: 2px dashed rgb(224, 255, 241);
+    margin-left: 8rem;
+    margin-right: 9rem;
 }
