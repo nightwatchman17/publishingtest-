@@ -1,4 +1,4 @@
-    /* * {
+/* * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -141,3 +141,11 @@ h1 {
 .tablecaption{
     font-family: 'Atma';
 }
+
+.maintable th, .maintable td {
+    width: 150px; /* Horizontal space: adjust as needed */
+}
+
+.maintable tr {
+   height: 48px; /* Vertical space: adjust as needed */
+} 
