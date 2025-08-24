@@ -1,4 +1,4 @@
-/* * {
+    /* * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -26,10 +26,12 @@
         }
 
 table, tr, th, td, caption {
+   
     border: 3px solid #100022;
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem;
+    text-align: center;
 }
 
 
@@ -40,7 +42,7 @@ table, tr, th, td, caption {
     text-decoration: none;
     background-color: #185556; /* Green color */
     color: white;
-    padding: 12px 60px;
+    padding: 18px 90px;
     border-radius: 16px;
     font-size: 20px;
     font-family: Arial, sans-serif;
@@ -141,11 +143,3 @@ h1 {
 .tablecaption{
     font-family: 'Atma';
 }
-
-.maintable th, .maintable td {
-    width: 150px; /* Horizontal space: adjust as needed */
-}
-
-.maintable tr {
-   height: 48px; /* Vertical space: adjust as needed */
-} 
